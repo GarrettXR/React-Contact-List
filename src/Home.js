@@ -11,7 +11,7 @@ class Home extends Component {
               <div id="title"><h1>My Peeps</h1></div>
               <ul>
               { data.map(peeps =>( 
-              <Link to="Contact-info"><li id="peep"><img src={peeps.picture.thumbnail}/> {peeps.name.first} {peeps.name.last}</li></Link>
+              <Link to={`/Contact-info/${peeps.id}`}><li id="peep"><img src={peeps.picture.thumbnail}/> {peeps.name.first} {peeps.name.last}</li></Link>
                 ))}
               </ul>    
           </div>        
