@@ -50,3 +50,43 @@ ul{
   top: 17px;
   right: 15px;
 }
+
+#container2{
+  margin: 0 auto;
+  margin-top: 100px;
+  height: 550px;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#photo1{
+  height: 200px;
+  background-color: limegreen;
+}
+
+#photo{
+  margin-left: 122px;
+  border-radius: 50%;
+  padding:10px;
+  height:200px;
+}
+
+span{
+  font-size: 25px;
+  position: relative;
+  bottom: 165px;
+  left: 20px;
+}
+
+#lists{
+  list-style: none;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+#names, #email, #phone, #location{
+  padding: 15px;
+  font-size: 25px;
+  border-bottom: 2px solid gray;
+}
